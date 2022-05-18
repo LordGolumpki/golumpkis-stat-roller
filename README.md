@@ -1,2 +1,2 @@
 # golumpkis-stat-roller
-A simple app for rolling DnD stats.
+A simple web app for rolling DnD stats.
