@@ -122,7 +122,6 @@ class StatWidget extends React.Component {
   render() {
     return (
       <section className="StatWidget">
-        <button className="RollButton" onClick={this.rollStats}>Roll</button>
         <section className="StatArray">
           <StatBox className="StatBox" num="Stat 1" score={this.state.score1} mod={this.state.mod1}></StatBox>
           <StatBox className="StatBox" num="Stat 2" score={this.state.score2} mod={this.state.mod2}></StatBox>
@@ -132,6 +131,7 @@ class StatWidget extends React.Component {
           <StatBox className="StatBox" num="Stat 6" score={this.state.score6} mod={this.state.mod6}></StatBox>
           <StatBox className="StatBox" num="Total" score={this.state.score7} mod={this.state.mod7}></StatBox>
         </section>
+        <button className="RollButton" onClick={this.rollStats}>Roll</button>
       </section>
     );
   }
